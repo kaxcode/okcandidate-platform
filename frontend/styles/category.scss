@@ -20,9 +20,33 @@
   margin-bottom: .5rem;
   border: 1px solid $darkGray;
   border-radius: 2px;
-
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .category-name {
   color: $darkGray;
+}
+
+.list-icon {
+  color:$darkGray;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.list-icon:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.list-icon i {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 0.6rem;
 }

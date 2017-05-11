@@ -13,7 +13,7 @@ class CategoryListItem extends Component {
       <div className="category-item row">
         <div className="category-rank one column">{this.props.rank}</div>
         <div className="category-info eleven columns">
-          <div className="two columns">
+          <div className="list-icon two columns">
             {
               this.props.icon &&
               <Icon>{this.props.icon}</Icon>
